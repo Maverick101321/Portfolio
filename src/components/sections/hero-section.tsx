@@ -43,7 +43,7 @@ export default function HeroSection() {
             <Button asChild>
               <Link href="/#contact">Get In Touch</Link>
             </Button>
-            <Button variant="outline" asChild>
+            <Button variant="outline" asChild className="hover:bg-primary/30">
               <Link href="/#projects">View Projects</Link>
             </Button>
           </motion.div>
@@ -55,17 +55,17 @@ export default function HeroSection() {
             className="mt-8 flex items-center gap-4 justify-center md:justify-start"
           >
             <Link href="https://github.com/Maverick101321" target="_blank" aria-label="GitHub">
-              <Button size="icon" variant="ghost" className="rounded-full">
+              <Button size="icon" variant="ghost" className="rounded-full hover:bg-primary/30">
                 <Github className="h-5 w-5" />
               </Button>
             </Link>
             <Link href="https://www.linkedin.com/in/choudhary-varun" target="_blank" aria-label="LinkedIn">
-              <Button size="icon" variant="ghost" className="rounded-full">
+              <Button size="icon" variant="ghost" className="rounded-full hover:bg-primary/30">
                 <Linkedin className="h-5 w-5" />
               </Button>
             </Link>
             <Link href="mailto:choudharyvarun4u@gmail.com" aria-label="Email">
-              <Button size="icon" variant="ghost" className="rounded-full">
+              <Button size="icon" variant="ghost" className="rounded-full hover:bg-primary/30">
                 <Mail className="h-5 w-5" />
               </Button>
             </Link>

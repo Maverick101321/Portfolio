@@ -39,7 +39,7 @@ export default function AboutSection() {
               As I move forward, I'm excited to work at the intersection of technology, impact, and people. I'm especially drawn to roles where I can solve complex engineering problems while collaborating with smart, kind teams who care deeply about their work.
             </p>
             <p className="font-medium text-foreground">
-              Let's build something meaningful together.
+              Let's build something meaningful together!
             </p>
           </div>
         </motion.div>

@@ -17,6 +17,16 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 const projects = [
   {
+    id: "trajec-track",
+    title: "TrajecTrack: Intelligent Trajectory Estimation",
+    description: "Developed real-time perception system (33 FPS) integrating LiDAR trajectory prediction, YOLOv8-based speed detection, and lane recognition via Canny/Hough Transform.",
+    tags: ["Python", "LiDAR", "YOLOv8", "Canny", "Hough Transform", "Computer Vision"],
+    imageUrl: "", // Placeholder for image URL
+    gitHubUrl: "https://github.com/Maverick101321/TrajecTrack-Intelligent-Trajectory-Estimation",
+    demoUrl: "",
+    category: "computer-vision"
+  },
+  {
     id: "algorithmic-trading",
     title: "Algorithmic Trading & Portfolio Optimization",
     description: "Developed a machine learning-driven trading strategy using historical S&P 500 data, achieving 15% higher risk-adjusted returns versus benchmark index.",
@@ -37,16 +47,6 @@ const projects = [
     category: "computer-vision"
   },
   {
-    id: "fraud-detection",
-    title: "Anomaly Detection in Credit Card Transactions",
-    description: "Built a fraud detection system using Artificial Neural Networks and SMOTE, achieving 98% fraud detection rate while reducing false positives by 15%.",
-    tags: ["Python", "Machine Learning", "ANN", "SMOTE", "Data Analysis"],
-    imageUrl: "", // Placeholder for image URL
-    gitHubUrl: "https://github.com/Maverick101321/Anamoly-Detection-in-Credit-Card-Transactions",
-    demoUrl: "",
-    category: "machine-learning"
-  },
-  {
     id: "college-dating-app",
     title: "College Dating Website",
     description: "Contributed to the development of a college-dedicated dating website with domain-specific email authentication.",
@@ -62,7 +62,7 @@ const projects = [
     description: "Developed a Selenium-based bot to automate the booking process on web platforms, implementing web scraping techniques for dynamic web interactions.",
     tags: ["Python", "Selenium", "Web Scraping", "Automation"],
     imageUrl: "", // Placeholder for image URL
-    gitHubUrl: "",
+    gitHubUrl: "https://github.com/Maverick101321/software_testing_automation/tree/main/booking-bot",
     demoUrl: "",
     category: "automation"
   },
@@ -72,9 +72,19 @@ const projects = [
     description: "Designed and executed test cases to validate RESTful To-Do API functionality, implementing automated tests for CRUD operations.",
     tags: ["API Testing", "REST", "Automation", "Test Cases"],
     imageUrl: "", // Placeholder for image URL
-    gitHubUrl: "",
+    gitHubUrl: "https://github.com/Maverick101321/software_testing_automation/tree/main/api-testing",
     demoUrl: "",
     category: "testing"
+  },
+  {
+    id: "fraud-detection",
+    title: "Anomaly Detection in Credit Card Transactions",
+    description: "Built a fraud detection system using Artificial Neural Networks and SMOTE, achieving 98% fraud detection rate while reducing false positives by 15%.",
+    tags: ["Python", "Machine Learning", "ANN", "SMOTE", "Data Analysis"],
+    imageUrl: "", // Placeholder for image URL
+    gitHubUrl: "https://github.com/Maverick101321/Anamoly-Detection-in-Credit-Card-Transactions",
+    demoUrl: "",
+    category: "machine-learning"
   }
 ];
 
